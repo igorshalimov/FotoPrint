@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="FotoPrint.Enter"
+             Title="FotoPrint">
+    <ContentPage.Content>
+        <ContentView BackgroundColor="White">
+            <StackLayout Padding="40,60,40,40" Orientation="Vertical">
+                <Label Text="Вход" FontAttributes="Bold" FontSize="27" TextColor="#1A237E" HorizontalOptions="CenterAndExpand"/>
+                <Entry x:Name="phoneEnter" Placeholder="Номер телефона"  FontSize="16" PlaceholderColor="#1A237E"  WidthRequest="670"  HorizontalOptions="CenterAndExpand"/>
+                <Entry x:Name="passEnter" Placeholder="Пароль" FontSize="16" PlaceholderColor="#1A237E"  WidthRequest="670"  HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="Login" Text="Войти" BackgroundColor="#1A237E"/>
+                <Button x:Name="Registration" Text="Регистрация" BackgroundColor="Green" Clicked="Button2_Clicked" />
+                <Button x:Name="Exit"  Text="Выход" BackgroundColor="Red" />
+            </StackLayout>
+        </ContentView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FotoPrint.Registration"
+             Title="FotoPrint">
+
+    <ContentPage.Content>
+        <ContentView BackgroundColor="White">
+    
+            <StackLayout Padding="40,60,40,40" Orientation="Vertical">
+                <Label Text="Регистрация" FontAttributes="Bold" FontSize="27" TextColor="#1A237E" HorizontalOptions="CenterAndExpand"/>
+                <Entry x:Name="phoneReg" Placeholder="Номер телефона"  FontSize="16" PlaceholderColor="#1A237E"  WidthRequest="670"  HorizontalOptions="CenterAndExpand"/>
+                <Entry x:Name="emailReg" Placeholder="e-mail (Необязательно)" FontSize="16" PlaceholderColor="#1A237E"  WidthRequest="670"  HorizontalOptions="CenterAndExpand"/>
+                <Entry x:Name="passReg" Placeholder="Пароль" FontSize="16" PlaceholderColor="#1A237E"  WidthRequest="670"  HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="RegOn" Text="Зарегистрироваться" BackgroundColor="#1A237E" />
+         
+            </StackLayout>
+        </ContentView>
+    </ContentPage.Content>
+   
+</ContentPage>
